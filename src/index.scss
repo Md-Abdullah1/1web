@@ -1,0 +1,6 @@
+// App Scss //
+@import '../public/assets/scss/app.scss';
+
+.page-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links .simplebar-wrapper .simplebar-mask .simplebar-content-wrapper .simplebar-content li a, .page-wrapper .page-body-wrapper .page-title .row h3 {
+    text-transform: none !important;
+}

@@ -1,0 +1,33 @@
+ 
+.custom-select div:nth-child(3), .custom-select {
+    border-radius: 0.375rem !important;
+}
+.custom-select.is-invalid div:nth-child(3) { 
+    border-color: #dc3545 !important; 
+} 
+
+.custom-select.is-invalid:focus-within {  
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25) !important;
+    border-radius: 0.375rem;
+    outline: 0;
+} 
+
+.custom-select.is-valid div:nth-child(3) {
+    border-color: #198754 !important; 
+}
+
+.custom-select.is-valid:focus-within { 
+    border-color: #198754 !important; 
+    box-shadow: 0 0 0 0.25rem rgb(25 135 84 / 25%) !important;
+    border-radius: 0.375rem;
+    outline: 0;
+}
+
+.custom-select:focus-within {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    outline: 0;
+    border-color: #86b7fe;
+    background-color: #00000000; 
+    border-radius: 0.375rem;
+}
